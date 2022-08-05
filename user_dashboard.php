@@ -5,11 +5,9 @@ require "db.php";
 ?>
 <body>
 <!-- Change home link -->
-<scrip>
-    <script>
-        document.getElementById("home").href = "user_dashboard.php";
-    </script>
-</scrip>
+<script>
+    document.getElementById("home").href = "user_dashboard.php";
+</script>
 <table>
     <tr>
         <th>Album Name</th>
