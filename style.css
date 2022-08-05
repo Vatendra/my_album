@@ -1,0 +1,113 @@
+/* Nav */
+nav{
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
+/*Login Form*/
+h1{
+    color: #444;
+    background-color: transparent;
+    border-bottom: 1px solid #D0D0D0;
+    font-size: 19px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+    padding: 14px 15px 10px 15px;
+}
+.login-form{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+.login-form input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Table */
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+th, td{
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+th{
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Checkbox */
+
+
+
+
+/* Create album form */
+[type="checkbox"]
+{
+    vertical-align:middle;
+}
+.create-album-form{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+.create-album-form input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.create-album-form button{
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.create-album-form button:hover{
+    background-color: #45a049;
+    color: #fff;
+}
+.create-album-form button:disabled{
+    background-color: #ccc;
+    color: #fff;
+}
+.create-album-form button:disabled:hover{
+    background-color: #fff;
+    color: #ccc;
+}
+
+
+
